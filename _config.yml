@@ -33,31 +33,31 @@ github_username: MarkSRobinson
 # Experiences
 author_work_experiences:
 - company_name: Plaid
-  company_logo: google.png
-  company_url: https://google.com
-  designation: Software Engineer
-  description: Worked on various Google Products
+  company_logo: plaid.svg
+  company_url: https://plaid.com
+  designation: Staff Infrastructure Engineer
+  description: Lead FinOps team to reduce AWS spending
   visibility: true
 - company_name: Uber
-  company_logo: microsoft.png
-  company_url: https://microsoft.com
-  designation: Azure Developer
-  description: Worked on various Azure Cloud Products
+  company_logo: uber.svg
+  company_url: https://uber.com
+  designation: Senior Software Engineer
+  description: Delivered Uber Rent product allowing drivers and riders to rent vehicles
   visibility: true
-- company_name: Uber
-  company_logo: microsoft.png
-  company_url: https://microsoft.com
-  designation: Azure Developer
-  description: Worked on various Azure Cloud Products
+- company_name: Synopsys
+  company_logo: synopsys.svg
+  company_url: https://synopsys.com
+  designation: Senior Software Engineer
+  description: Developed the Coverity SAST web management tool
   visibility: true
 
 # Education
 author_education_details:
-  - college_logo: mit.png
-    college_name: MIT
-    college_url: https://mit.org
-    college_degree: CS Engineer
-    description: Bachelor of Technology
+  - college_logo: uvic.jpg
+    college_name: UVic
+    college_url: https://uvic.ca
+    college_degree: Computer Engineering
+    description: Bachelor of Engineering
     visibility: true
 
 # Projects
@@ -76,8 +76,8 @@ author_project_details:
 
 author_logo: profile.png
 author: Mark Robinson
-author_bio: I enjoy working on technical problems
-author_email: "mail@sujaykundu.com"
+author_bio: I enjoy fixing hard problems
+author_email: "speaking@mrobinson.ca"
 author_location: San Francisco
 author_website_url: "https://markrobinson.io"
 typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
@@ -100,7 +100,7 @@ permalink: pretty
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4
